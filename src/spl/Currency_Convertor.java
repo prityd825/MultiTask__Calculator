@@ -222,41 +222,203 @@ public class Currency_Convertor extends JFrame{
              public void actionPerformed(ActionEvent e){
             
                 
-                double a,ans=0;
-	a=Double.valueOf(t1.getText());
-        
-        
-          /*   TreeMap<String, String> t1=new TreeMap<>();
-            try {
-              File f=new File("\\H:\\file1.txt");
-				BufferedReader br=new BufferedReader(new FileReader(f));
-				String c = br.readLine();
-				while (c != null) {
-					String[] s=c.split("\t");
-					t1.put(s[0],s[1]);
-					c = br.readLine();
-				}
-                                
-                                
-				br.close();
-				 Set<String> r =t1.keySet();
-				 rate = ParseInt(r);
-            }   
-			 catch (FileNotFoundException e1) {
-			
-				e1.printStackTrace();
-			} catch (IOException e1) {
-			
-				e1.printStackTrace();
-			} */
-      
-        if(currency1 == "Taka" && currency1=="Euro" )
+                      double a,ans=0;
+	             a=Double.valueOf(t1.getText());
+		     String currency = tfrom.getText();
+                       String currency1 = tto.getText();
+		     
+		     if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Afghani") )
         {
-            ans=a*rate;
+            ans=a*1.18;
+          
+        } else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Algerian Dinar"))
+        {
+            ans=a*0.74;
         }
-      
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("US Dollar"))
+        {
+            ans= a*103.75;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Kwanza"))
+        {
+            ans= a*0.24;
+        }else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Taka"))
+        {
+            ans= a*1;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Barbados Dollar"))
+        {
+            ans= a*51.09;
+        }else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Belarussian Ruble"))
+        {
+            ans= a*40.84;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*100.53;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Canadian Dollar"))
+        {
+            ans= a*76.36;
+        }else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Nakfa"))
+        {
+            ans= a*6.80;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Indian Rupee"))
+        {
+            ans= a*1.28;
+        }else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Rupiah"))
+        {
+            ans= a*0.0069;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*100.53;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Yen"))
+        {
+            ans= a*0.72;
+        }else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Pound Sterling"))
+        {
+            ans= a*112.66;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Jordanian Dinar"))
+        {
+            ans= a*146.34;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Australian Dollar"))
+        {
+            ans= a*67.94;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Kuwaiti Dinar"))
+        {
+            ans= a*334.65;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Som"))
+        {
+            ans= a*1.27;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*100.53;
+        }
+         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Lebanese Pound"))
+        {
+            ans= a*0.068;
+        }
+         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*100.53;
+        }
+         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Kwacha"))
+        {
+            ans= a*6.44;
+        }
+         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Malaysian Ringgit"))
+        {
+            ans= a*22.66;
+        }
+        else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Zimbabwe Dollar"))
+        {
+            ans= a*0.2821;
+        }
         
-      
+       
+        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Malaysian Ringgit"))
+        {
+            ans= a*19.42;
+        }
+        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Kwacha"))
+        {
+            ans= a*5.52;
+        }
+        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*86.15;
+        }
+         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Lebanese Pound"))
+        {
+            ans= a*0.058;
+        }
+        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*86.15;
+        }
+        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Som"))
+        {
+            ans= a*0.0080;
+        }
+        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Kuwaiti Dinar"))
+        {
+            ans= a*286.79;
+        }
+        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Austrlian Dollar"))
+        {
+            ans= a*58.22;
+        }else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Kuwaiti Dinar"))
+        {
+            ans= a*286.79;
+        }
+        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Kuwaiti Dinar"))
+        {
+            ans= a*0.0080;
+        }
+        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*86.15;
+        }else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Lebanses Pound"))
+        {
+            ans= a*0.058;
+        }
+        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*86.15;
+        }
+        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Kwacha"))
+        {
+            ans= a*5.52;
+        }
+         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Malaysian Ringgit"))
+        {
+            ans= a*19.42;
+        }
+        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Zimbabwe"))
+        {
+            ans= a*88.91;
+        }
+        
+        
+        
+         else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Zimbabwe"))
+        {
+            ans= a*88.91;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Malaysian Ringgit"))
+        {
+            ans= a*30.71;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Kwacha"))
+        {
+            ans= a*8.73;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*136.26;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Lebanese Pound"))
+        {
+            ans= a*0.092;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*136.26;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*136.26;
+        }
+        
+       
      
         ta1.setText(String.valueOf(ans));
 	    
