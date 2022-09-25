@@ -227,64 +227,64 @@ public class Currency_Convertor extends JFrame{
 		     String currency = tfrom.getText();
                        String currency1 = tto.getText();
 		     
-		     if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Afghani") )
+		    if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Afghani") )
         {
-            ans=a*1.18;
+            ans=a*0.86;
           
         } else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Algerian Dinar"))
         {
-            ans=a*0.74;
+            ans=a*1.36;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("US Dollar"))
         {
-            ans= a*103.75;
+            ans= a*0.0096;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Kwanza"))
         {
-            ans= a*0.24;
+            ans= a*4.16;
         }else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Taka"))
         {
             ans= a*1;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Barbados Dollar"))
         {
-            ans= a*51.09;
+            ans= a*0.020;
         }else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Belarussian Ruble"))
         {
-            ans= a*40.84;
+            ans= a*0.024;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Euro"))
         {
-            ans= a*100.53;
+            ans= a*0.0100;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Canadian Dollar"))
         {
             ans= a*76.36;
         }else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Nakfa"))
         {
-            ans= a*6.80;
+            ans= a*0.145;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Indian Rupee"))
         {
-            ans= a*1.28;
+            ans= a*0.78;
         }else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Rupiah"))
         {
-            ans= a*0.0069;
+            ans= a*145.70;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Euro"))
         {
-            ans= a*100.53;
+            ans= a*0.0100;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Yen"))
         {
-            ans= a*0.72;
+            ans= a*1.38;
         }else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Pound Sterling"))
         {
-            ans= a*112.66;
+            ans= a*0.0089;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Jordanian Dinar"))
         {
-            ans= a*146.34;
+            ans= a*0.0068;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Australian Dollar"))
         {
@@ -292,132 +292,252 @@ public class Currency_Convertor extends JFrame{
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Kuwaiti Dinar"))
         {
-            ans= a*334.65;
+            ans= a*0.0030;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Som"))
         {
-            ans= a*1.27;
+            ans= a*106.83;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Euro"))
         {
-            ans= a*100.53;
+            ans= a*1.03;
         }
          else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Lebanese Pound"))
         {
-            ans= a*0.068;
+            ans= a*14.67;
         }
          else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Euro"))
         {
-            ans= a*100.53;
+            ans= a*0.0100;
         }
          else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Kwacha"))
         {
-            ans= a*6.44;
+            ans= a*0.16;
         }
          else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Malaysian Ringgit"))
         {
-            ans= a*22.66;
+            ans= a*0.044;
         }
         else if(currency.equalsIgnoreCase("Taka") && currency1.equalsIgnoreCase("Zimbabwe Dollar"))
         {
-            ans= a*0.2821;
+            ans= a*3.544812;
         }
         
        
         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Malaysian Ringgit"))
         {
-            ans= a*19.42;
+            ans= a*0.052;
         }
         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Kwacha"))
         {
-            ans= a*5.52;
+            ans= a*11.74;
         }
         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Euro"))
         {
-            ans= a*86.15;
+            ans= a*0.012;
         }
          else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Lebanese Pound"))
         {
-            ans= a*0.058;
+            ans= a*17.30;
         }
         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Euro"))
         {
-            ans= a*86.15;
+            ans= a*0.012;
         }
         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Som"))
         {
-            ans= a*0.0080;
+            ans= a*125.97;
         }
         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Kuwaiti Dinar"))
         {
-            ans= a*286.79;
+            ans= a*0.0035;
         }
         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Austrlian Dollar"))
         {
-            ans= a*58.22;
+            ans= a*0.017;
         }else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Kuwaiti Dinar"))
         {
-            ans= a*286.79;
-        }
-        else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Kuwaiti Dinar"))
-        {
-            ans= a*0.0080;
+            ans= a*0.0035;
         }
         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Euro"))
         {
-            ans= a*86.15;
+            ans= a*0.012;
         }else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Lebanses Pound"))
         {
-            ans= a*0.058;
+            ans= a*17.30;
         }
         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Euro"))
         {
-            ans= a*86.15;
+            ans= a*0.012;
         }
         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Kwacha"))
         {
-            ans= a*5.52;
+            ans= a*11.74;
         }
          else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Malaysian Ringgit"))
         {
-            ans= a*19.42;
+            ans= a*0.052;
         }
         else if(currency.equalsIgnoreCase("Afghani") && currency1.equalsIgnoreCase("Zimbabwe"))
         {
-            ans= a*88.91;
+            ans= a*0.011;
         }
         
         
         
          else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Zimbabwe"))
         {
-            ans= a*88.91;
+            ans= a*0.0071;
         }
         else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Malaysian Ringgit"))
         {
-            ans= a*30.71;
+            ans= a*0.033;
         }
         else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Kwacha"))
         {
-            ans= a*8.73;
+            ans= a*7.35;
         }
         else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Euro"))
         {
-            ans= a*136.26;
+            ans= a*0.0073;
         }
         else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Lebanese Pound"))
         {
-            ans= a*0.092;
+            ans= a*10.82;
         }
         else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Euro"))
         {
-            ans= a*136.26;
+            ans= a*10.0073;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Som"))
+        {
+            ans= a*0.58;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Kuwaiti Dinar"))
+        {
+            ans= a*0.0022;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Australian Dollar"))
+        {
+            ans= a*0.011;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Jordanian Dinar"))
+        {
+            ans= a*0.0050;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Pound Sterling"))
+        {
+            ans= a*0.0065;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Yen"))
+        {
+            ans= a*1.02;
         }
         else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Euro"))
         {
-            ans= a*136.26;
+            ans= a*0.0073;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Rupiah"))
+        {
+            ans= a*107.47;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Indian Rupee"))
+        {
+            ans= a*0.58;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Nakfa"))
+        {
+            ans= a*1.06;
+        }
+         else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Nakfa"))
+        {
+            ans= a*1.06;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Canadian Dollar"))
+        {
+            ans= a*0.0097;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*0.0073;
+        }
+         else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Belarussian Ruble"))
+        {
+            ans= a*0.018;
         }
         
+          else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Barbados Dollar"))
+        {
+            ans= a*0.0014;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Taka"))
+        {
+            ans= a*0.74;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Kwanza"))
+        {
+            ans= a*3.07;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("US Dollar"))
+        {
+            ans= a*0.0071;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Algerian Dinar"))
+        {
+            ans= a*0.0022;
+        }
+        else if(currency.equalsIgnoreCase("Algerian Dinar") && currency1.equalsIgnoreCase("Afghani"))
+        {
+            ans= a*0.63;
+        }
+        
+        
+        else if(currency.equalsIgnoreCase("US Dollar") && currency1.equalsIgnoreCase("Afghani"))
+        {
+            ans= a*88.91;
+        }
+        else if(currency.equalsIgnoreCase("US Dollar") && currency1.equalsIgnoreCase("Algerian Dinar"))
+        {
+            ans= a*140.62;
+        }
+        else if(currency.equalsIgnoreCase("US Dollar") && currency1.equalsIgnoreCase("Kwanza"))
+        {
+            ans= a*431.15;
+        }
+        else if(currency.equalsIgnoreCase("US Dollar") && currency1.equalsIgnoreCase("Taka"))
+        {
+            ans= a*103.75;
+        }
+        else if(currency.equalsIgnoreCase("US Dollar") && currency1.equalsIgnoreCase("Barbados Dollar"))
+        {
+            ans= a*0.49;
+        }
+        else if(currency.equalsIgnoreCase("US Dollar") && currency1.equalsIgnoreCase("Belarussian Ruble"))
+        {
+            ans= a*02.54;
+        }
+        else if(currency.equalsIgnoreCase("US Dollar") && currency1.equalsIgnoreCase("Euro"))
+        {
+            ans= a*1.03;
+        }
+        else if(currency.equalsIgnoreCase("US Dollar") && currency1.equalsIgnoreCase("Canadian Dollar"))
+        {
+            ans= a*1.36;
+        }
+        else if(currency.equalsIgnoreCase("US Dollar") && currency1.equalsIgnoreCase("Nakfa"))
+        {
+            ans= a*0.066666;
+        }
+        else if(currency.equalsIgnoreCase("US Dollar") && currency1.equalsIgnoreCase("Indian Rupee"))
+        {
+            ans= a*81.26;
+        }
+        else if(currency.equalsIgnoreCase("US Dollar") && currency1.equalsIgnoreCase("Rupiah"))
+        {
+            ans= a*15112.10;
+        }
+        
+                
        
      
         ta1.setText(String.valueOf(ans));
